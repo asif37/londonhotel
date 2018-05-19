@@ -59,7 +59,7 @@ footer .nav-footer .nav-area-f .nav-col-f h3{font:400 14px "Source Sans Pro",san
 .leesFerry-grid .mmworld{background:url("../img/mmworld.jpg") no-repeat center;background-size:center;z-index:50 !important}
 .leesFerry-grid .academy{background:url("../img/academy.jpg") no-repeat center;background-size:center;z-index:50 !important}
 .leesFerry-grid .queenpark{background:url("../img/queenpark.jpg") no-repeat center;background-size:center;z-index:50 !importan.leesFerry-grid .hotel{background:url("../img/queenpark.jpg") no-repeat center;background-size:cover;z-index:27 !important}
-.test{}
+.test{background-color:red;}
 .leesFerry-grid .aboutus{background:url("../img/aboutus.jpg") no-repeat center;background-size:cover;z-index:27 !important}
 div.gallery {
     margin: 5px;
