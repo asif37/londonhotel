@@ -156,3 +156,13 @@ body {
     cursor: pointer;
 }
 
+.lh-container{
+  width:200px;
+  height:200px;
+  text-align:center;
+  border:1px solid black;
+}
+.lh-img{
+  width:100%;
+  height:100%;
+}
