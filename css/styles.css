@@ -67,7 +67,7 @@ footer .nav-footer .nav-area-f .nav-col-f h3{font:400 14px "Source Sans Pro",san
     width: 100%;
     height: auto;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:960px) {
 	.grid-box {
 	width: 100%;
 	height:auto;
@@ -75,19 +75,19 @@ footer .nav-footer .nav-area-f .nav-col-f h3{font:400 14px "Source Sans Pro",san
     -webkit-box-sizing: border-box;
     background: linear-gradient(#545454, #ececec);
     border: 1px solid white;
-}
-.grid-text{
-    padding: 10px;
-    color: #000000;
-    font: 14px sans-serif;
-    overflow: ellipsis;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-.grid-img{
-    width: 100%;
-    height: auto;
-}
+	}
+	.grid-text{
+	    padding: 15px;
+	    color: #000000;
+	    font: 16px sans-serif;
+	    overflow: ellipsis;
+	    box-sizing: border-box;
+	    -webkit-box-sizing: border-box;
+	}
+	.grid-img{
+	    width: 100%;
+	    height: auto;
+	}
 }
 
 .leesFerry-grid .bigben{background:url("../img/bigben.jpg") no-repeat center;background-size:center;z-index:50 !important}
