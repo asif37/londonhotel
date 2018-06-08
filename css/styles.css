@@ -16,7 +16,7 @@ body{font-size:1em;line-height:1.4}::-moz-selection{background:#eeeeee;text-shad
 audio,canvas,img,video{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.browsehappy{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0}
 html,body{width:100%;height:auto;background-color:#f5f5f5;color:#fff;overflow-y:auto;overflow-x:hidden}
 a{text-decoration:none}.button{text-align:center;width:316px;height:46px;border:2px solid #fff;font:22px/50px "Cousine";letter-spacing:4px;text-transform:uppercase;margin:0px auto;cursor:pointer;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}@media screen and (max-width: 767px){.button{width:232px;height:42px;font:16px/46px "Cousine"}}hr{width:60px;height:0px;margin:25px auto;border:1px solid rgba(255,255,255,0.3)}@media screen and (max-width: 960px){hr{margin:20px auto}}@media screen and (max-width: 767px){hr{margin:15px auto}}
-header{position:relative;width:100%;max-width:1280px;height:120px;background-color:#fff;padding:20px 0px 0px 0px;margin:0px auto;z-index:999}@media screen and (max-width: 1280px){header{/*padding:48px 0px 0px 0px;*/padding:10px 0px 0px 0px;/*height:92px;*/height:50px;width:960px}}@media screen and (max-width: 960px){header{padding:0px 0px 0px 0px;height:120px;width:100%}}@media screen and (max-width: 767px){header{display:none;height:60px;width:100%;overflow:hidden;position:fixed}}
+header{position:relative;width:100%;max-width:1280px;height:120px;background-color:#fff;padding:20px 0px 0px 0px;margin:0px auto;z-index:999}@media screen and (max-width: 1280px){header{/*padding:48px 0px 0px 0px;*/padding:10px 0px 0px 0px;/*height:92px;*/height:50px;width:960px}}@media screen and (max-width: 960px){header{padding:0px 0px 0px 0px;height:120px;width:100%;display:none;}}@media screen and (max-width: 767px){header{display:none;height:60px;width:100%;overflow:hidden;position:fixed}}
 header .logo{width:756px;margin:0px 0px 0px 267px;overflow:auto}@media screen and (max-width: 1280px){header .logo{width:687px;margin:0px 0px 0px 143px}}@media screen and (max-width: 960px){header .logo{width:272px;margin:0px auto}}@media screen and (max-width: 767px){header .logo{width:186px;margin:0px auto}}
 header .logo img{width:292px;display:block;float:left;margin:38px 52px 0px 61px}@media screen and (max-width: 1280px){header .logo img{width:272px;margin:11px 42px 0px 49px}}@media screen and (max-width: 960px){header .logo img{margin:46px auto 0px}}@media screen and (max-width: 767px){header .logo img{width:186px;margin:24px auto 0px}}
 header .logo h2{text-transform:uppercase;color:#999;font:18px/78px "Cousine";float:left;letter-spacing:2px}@media screen and (max-width: 1280px){header .logo h2{/*font:16px/27px "Cousine"*/font:16px "Cousine";}}@media screen and (max-width: 960px){header .logo h2{display:none}}.container{position:relative;width:100%;max-width:1280px;height:100%;overflow:hidden;margin:0px auto;background-color:#f5f5f5}@media screen and (max-width: 1280px){.container{width:960px}}@media screen and (max-width: 960px){.container{max-width:100%}}@media screen and (max-width: 767px){.container{margin-top:60px}}
@@ -66,6 +66,28 @@ footer .nav-footer .nav-area-f .nav-col-f h3{font:400 14px "Source Sans Pro",san
 .grid-img{
     width: 100%;
     height: auto;
+}
+@media screen and (max-width:768px) {
+	.grid-box {
+	width: 100%;
+	height:auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: linear-gradient(#545454, #ececec);
+    border: 1px solid white;
+}
+.grid-text{
+    padding: 10px;
+    color: #000000;
+    font: 14px sans-serif;
+    overflow: ellipsis;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.grid-img{
+    width: 100%;
+    height: auto;
+}
 }
 
 .leesFerry-grid .bigben{background:url("../img/bigben.jpg") no-repeat center;background-size:center;z-index:50 !important}
