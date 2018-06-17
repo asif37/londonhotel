@@ -12,6 +12,13 @@
 
         <meta name="viewport" content="width=1, initial-scale=1.0, minimum-scale=1.0">
 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+
         
         <link rel="stylesheet" href="./css/styles.css">
 
@@ -40,6 +47,8 @@ img.emoji {
   background: none !important;
   padding: 0 !important;
 }
+
+
 </style>
 <!--<link rel="stylesheet" id="contact-form-7-css" href="http://leesferry.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9" type="text/css" media="all">-->
 <!--<script type="text/javascript" src="http://leesferry.com/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
@@ -50,7 +59,7 @@ img.emoji {
 <meta name="generator" content="WordPress 4.8.5">-->
 <title>London Euro Hotel</title>
 </head>
-    <body style="background:linear-gradient(#ada996, #eaeaea, #dbdbdb, #f2f2f2, #ada996);">
+    <body style="">
         <!--[if lt IE 9]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -90,18 +99,8 @@ img.emoji {
 </nav>
     <header>
   <div class="logo">
-  <h2>UK's Top choice &nbsp;</h2>
-  <!--<a href="/"><img src="http://www.comfotelprpl.com/wp-content/uploads/2017/11/ComfotelLogo.jpg"  alt="Euro Hotels"></a>-->
-  <h2>London Euro Hotel's Best</h2>
+  <a href="/"><img src="../londonhotel/img/logo.png"  alt="Euro Hotels"></a>
   </div>
- <!-- <div class="nav-btn">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-       <!-- <p>MENU</p>-->
-    </div>
-
 </header>
     <div class="container">
      <nav class="nav-mobile">
@@ -188,19 +187,26 @@ img.emoji {
 
 
 </nav>
+
+
       <section class="leesFerry-grid">
         <div class="overlay">
 
-        <div class="flix col4 banner" style="opacity: 1; transform: scale(1, 1);">
+       <div class="flix col4 banner" style="opacity: 1; transform: scale(1, 1);">
           <div class="overlay">
-            <h1><a href="./index.html"> Euro Hotel<br>
+            <!-- <img src="http://leesferry.com/wp-content/themes/leesferry/img/logo-fish.svg"> -->
+            <h1 style="border:black;"><a href="./index.html"> Euro Hotel<br>
             Hammersmith</a></h1>
+            <h2>Euro Hotel is a newly renovated hotel</h2> 
+            <!-- <a href="/cliff-dwellers-lodge"><div class="button">Plan Your Trip</div></a> -->
           </div>
           <!--<video autoplay="" loop="" preload="">
             <source src="http://leesferry.com/wp-content/themes/leesferry/video/cliffDwellersHome.mp4" type="video/mp4">
             <source src="http://leesferry.com/wp-content/themes/leesferry/video/cliffDwellersHome.ogv" type="video/ogg">
           </video>-->
         </div>
+
+
 
         
 <div>
@@ -235,7 +241,7 @@ img.emoji {
         <div class="flix zoomer col-banner london" style="opacity: 1; transform: scale(1, 1); z-index: 100;">
           <h2 style="transform: scale(1, 1);">LONDON</h2>
         </div></a>
-        <a href="#">
+        <a href="./booking.html">
         <div class="flix zoomer col1 guides" style="opacity: 1; transform: scale(1, 1);">
           <h2>Book</h2>
         </div>
@@ -417,17 +423,10 @@ img.emoji {
       <a href="/restaurant"><p>Book</p></a>-->
     </div>
     <div class="nav-col-f">
-      <!--<h3>Fishing</h3>
-      <a href="/lees-ferry-anglers"><p>Euro Hotels Anglers</p></a>
-      <a href="/fishing-info"><p>Fishing Info</p></a>
-      <a href="/river-report"><p>River Report</p></a>
-      <a href="/what-you-should-know"><p>What You Should Know</p></a>-->
-    </div>
-    <div class="nav-col-f">
       <a href="./aboutus.html"><p>About us</p></a>
       <a href="./gallery.html"><p>Gallery</p></a>
       <a href="./offers.html"><p>Offers</p></a>
-      <a href="./books.html"><p>Books</p></a>
+      <a href="./booking.html"><p>Books</p></a>
       <a href="./london.html"><p>London</p></a>
     </div>
     <div class="nav-col-f">
@@ -439,6 +438,14 @@ img.emoji {
       <a href="tel:02076034721"><p>+ 44 (0) 207 603 4721 - + 44 (0) 207 603 7596</p></a>
       <a href="mailto:info@londoneurohotel.co.uk"><p>info@londoneurohotel.co.uk</p></a>
     </div>
+    <div class="nav-col-f">
+      <!--<h3>Fishing</h3>
+      <a href="/lees-ferry-anglers"><p>Euro Hotels Anglers</p></a>
+      <a href="/fishing-info"><p>Fishing Info</p></a>
+      <a href="/river-report"><p>River Report</p></a>
+      <a href="/what-you-should-know"><p>What You Should Know</p></a>-->
+    </div>
+    
   </div>
 </section>
 
@@ -466,5 +473,23 @@ img.emoji {
 <script src="./js/plugins.min.js"></script>
 <script src="./js/main.min.js"></script>
 
+<script>  
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
 
 
+</body>
+</html>
