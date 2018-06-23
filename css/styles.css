@@ -1,8 +1,5 @@
 
-@font-face {
-font-family: NeuzeitGro-Reg;
-src: url(/MyWebFont.woff2);
-}
+
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{font-family:"NeuzeitGro-Reg";-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
 audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}
@@ -71,6 +68,7 @@ footer .left{
 @media screen and (max-width: 733px){footer .left{float:none;width:100%;text-align:center;padding:40px 0px 0px 0px}}footer .left p{margin:38px 0px 0px 68px}@media screen and (max-width: 960px){footer .left p{margin:38px 0px 0px 44px}}@media screen and (max-width: 733px){footer .left p{margin:0px 0px 0px 0px}}
 footer .right{float:right;width:330px;text-align:right}@media screen and (max-width: 733px){footer .right{float:none;width:100%;text-align:center}}footer .right p{margin:38px 63px 0px 0px}@media screen and (max-width: 733px){footer .right p{margin:10px 0px 0px 0px}}footer .divider{width:90%;margin:0px auto;position:relative;height:1px;border-bottom:1px solid #272c22}
 footer .nav-footer{position:relative;width:90%;height:220px;background-color:#fff;margin:0px auto;display:block;}@media screen and (max-width: 767px){footer .nav-footer{display:none}}footer .nav-footer .nav-area-f{position:relative;height:100%;width:100%;max-width:1280px;margin:0px auto;padding-top:12px;color:#6a735f}@media screen and (max-width: 1280px){footer .nav-footer .nav-area-f{max-width:960px}}footer .nav-footer .nav-area-f .nav-col-f{width:50%;height:100%;float:left}
+
 footer .nav-footer .nav-area-f .nav-col-f h3{
     font: 500 16px "NeuzeitGro-Reg",sans-serif;
     text-transform: uppercase;
@@ -79,7 +77,8 @@ footer .nav-footer .nav-area-f .nav-col-f h3{
     margin: 10px 5px 0px 24px;
     padding: 0px 0px 0px 0px;
     color: #999999;
-	}
+}
+
 footer .nav-footer .nav-area-f .nav-col-f p{font:12px "NeuzeitGro-Reg";text-align:left;margin:10px 5px 0px 26px;text-transform:none}@media screen and (max-width: 1280px){footer .nav-footer .nav-area-f .nav-col-f p{font:10px "NeuzeitGro-Reg";letter-spacing:0px}}footer .nav-footer .nav-area-f .nav-col-f a{color:#999999;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out}footer .nav-footer .nav-area-f .nav-col-f a:hover{text-decoration:underline}.active-page{color:#F1785B !important}
 .newsSignup .col4{color:#FFFFFF;font:400 11px "NeuzeitGro-Reg",sans-serif;text-transform:uppercase;letter-spacing:3px;background:#272d23;position:relative;width:100%;height:174px;padding-bottom:0;float:left}@media screen and (max-width: 960px){.newsSignup .col4{height:190px}}@media screen and (max-width: 767px){.newsSignup .col4{width:100%}}.newsSignup .col2{position:relative;width:50%;height:174px;float:left;overflow:hidden;padding-top:64px}.newsSignup .col2 p{width:70%;float:right;max-width:330px;margin-right:12px;-webkit-margin-before:.25em}@media screen and (max-width: 960px){.newsSignup .col2{height:70px;text-align:center}
 .newsSignup .col2 p{width:90%;float:none;max-width:500px;margin-right:0;margin:0 auto;-webkit-margin-before:.25em}}@media screen and (max-width: 767px){.newsSignup .col2{width:100%;overflow:auto;padding-top:24px}}.newsSignup .col2 input[type="text"],
