@@ -12,6 +12,13 @@
 
         <meta name="viewport" content="width=1, initial-scale=1.0, minimum-scale=1.0">
 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+
         
         <link rel="stylesheet" href="./css/styles.css">
 
@@ -40,6 +47,34 @@ img.emoji {
   background: none !important;
   padding: 0 !important;
 }
+
+.eurologo {
+  display: inline-block;
+  width: 210px;
+  height: 110px;
+  margin-top: -25px;
+}
+header{
+  height:60px !important;
+}
+.header-c-align {
+  margin:0px auto;
+  width:100%;
+  text-align: center;
+}
+.subheading {
+    font: 100 11px "NeuzeitGro-Reg",sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: -30px auto;
+    width: 100%;
+    color: #fff;
+}
+@font-face {
+  font-family: 'NeuzeitGro-Reg';
+  url('./css/MyWebFont.woff2') format('woff2'), 
+}
 </style>
 <!--<link rel="stylesheet" id="contact-form-7-css" href="http://leesferry.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9" type="text/css" media="all">-->
 <!--<script type="text/javascript" src="http://leesferry.com/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
@@ -49,8 +84,9 @@ img.emoji {
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://leesferry.com/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 4.8.5">-->
 <title>London Euro Hotel</title>
+
 </head>
-    <body style="background:linear-gradient(#ada996, #eaeaea, #dbdbdb, #f2f2f2, #ada996);">
+    <body style="">
         <!--[if lt IE 9]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -58,51 +94,16 @@ img.emoji {
     
     <nav class="nav-desktop">
   <div class="nav-area">
-    <!-- <div class="nav-col">
-      <h3>Lodging</h3>
-     <a href="/cliff-dwellers-lodge"><p class="page-lodge">Cliff Dwellers Lodge</p></a>
-      <a href="/nearby-attractions"><p class="page-nearby">Nearby Attractions</p></a>
-      <a href="/restaurant"><p class="page-restaurant">Cliff Dwellers Restaurant</p></a>
-    </div>
-    <div class="nav-col">
-      <h3>Fishing</h3>
-      <a href="/lees-ferry-anglers"><p class="page-anglers">Euro Hotels Anglers</p></a>
-      <a href="/fishing-info"><p class="page-info">Fishing Info</p></a>
-      <a href="/river-report"><p class="page-report">River Report</p></a>
-      <a href="/what-you-should-know"><p class="page-know">What You Should Know</p></a>
-    </div>
-    <div class="nav-col">
-      <h3>Services</h3>
-      <a href="/guides-and-services"><p class="page-guides-services">Guides &amp; Services</p></a>
-      <a href="/our-guides"><p class="page-our-guides">Our Guides</p></a>
-      <a href="/fly-shop"><p class="page-fly-shop">Fly Shop &amp; Boat Rentals</p></a>
-    </div>
-    <div class="nav-col">
-      <h3>Contact</h3>
-      <a href="https://www.google.com/maps/place/Cliff+Dwellers+Lodge/@36.743835,-111.753615,11z/data=!4m2!3m1!1s0x87346fbf26b77509:0xe8cb441f409fb811" target="_blank">
-      <p>33 Shepherds Bush Road, <br>
-      London W6 7LU, England</p></a>
-      <a href="tel:0207 603 4409"><p>0207 603 4409</p></a>
-      
-      <a href="mailto:info@londoneurohotel.co.uk"><p>info@londoneurohotel.co.uk</p></a>
-    </div>-->
+   
   </div>
 </nav>
     <header>
-  <div class="logo">
-  <h2>UK's Top choice &nbsp;</h2>
-  <a href="/"><img src="./img/eurologo.png"  alt="Euro Hotel Hammersmith"></a>
-  <h2>London Euro Hotel's Best</h2>
-  </div>
- <!-- <div class="nav-btn">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-       <!-- <p>MENU</p>-->
-    </div>
-
-</header>
+      <div class="header-c-align">
+          <a href="./index.html" style="display:inline-block;">
+            <img src="./img/eurologo.png" class="eurologo" />
+          </a>  
+      </div>  
+    </header>
     <div class="container">
      <nav class="nav-mobile">
 
@@ -188,19 +189,27 @@ img.emoji {
 
 
 </nav>
-      <section class="leesFerry-grid">
-        <div class="overlay">
 
-        <div class="flix col4 banner" style="opacity: 1; transform: scale(1, 1);">
-          <div class="overlay">
-            <h1><a href="./index.html"> Euro Hotel<br>
+
+      <section class="leesFerry-grid">
+        <div class="overlay" >
+
+       <div class="flix col4 banner" style="opacity: 1; transform: scale(1, 1);">
+        <div class="w3-display-bottomleft ">
+    <p stlye="font-family:'NeuzeitGro-Reg';text-align:left;">
+      Free WIFI<br/>Late Check Out<br/>Welcome Goody Gifts<br/>Prioritised for Upgrade</p>
+  </div>
+          <div class="overlay" style="background-color: black;opacity: 0.5;">
+            <!-- <img src="http://leesferry.com/wp-content/themes/leesferry/img/logo-fish.svg"> -->
+            <h1 style="max-width:100%;font-family:'NeuzeitGro-Reg';"><a href="./index.html"> Euro Hotel<br>
             Hammersmith</a></h1>
+            <h2 class="" >Euro Hotel is a newly renovated hotel</h2> 
+           
           </div>
-          <!--<video autoplay="" loop="" preload="">
-            <source src="http://leesferry.com/wp-content/themes/leesferry/video/cliffDwellersHome.mp4" type="video/mp4">
-            <source src="http://leesferry.com/wp-content/themes/leesferry/video/cliffDwellersHome.ogv" type="video/ogg">
-          </video>-->
+         
         </div>
+
+
 
         
 <div>
@@ -209,12 +218,12 @@ img.emoji {
         <!--<div class="flix zoomer col-banner aboutus" style="opacity: 1; transform: scale(1, 1); z-index: 97;">
           <h2 style="transform: scale(1, 1);"> About us.</h2>-->
           <div class="flix col1 connect" intent="" in-standard-after=".contact" in-full-after=".contact" in-mobile-after=".river-temp" style="opacity: 1; transform: scale(1, 1);">
-          <h3>Connect with Us</h3>
-          <a href="" target="_blank"><p>Facebook</p></a>
+          <h3 style="'font-family:'NeuzeitGro-Reg'">Connect with Us</h3>
+          <a href="" target="_blank"><p style="'font-family:'NeuzeitGro-Reg'">Facebook</p></a>
           <hr>
-          <a href="http://instagram.com/" target="_blank"><p>Instagram</p></a>
+          <a href="http://instagram.com/" target="_blank"><p style="'font-family:'NeuzeitGro-Reg'">Instagram</p></a>
           <hr>
-          <a href="https://twitter.com/" target="_blank"><p>Twitter</p></a>
+          <a href="https://twitter.com/" target="_blank"><p style="'font-family:'NeuzeitGro-Reg'">Twitter</p></a>
         </div>
         <!--</div>-->
         </a>
@@ -224,20 +233,20 @@ img.emoji {
   
         <a href="./gallery.html">
         <div class="flix zoomer col-banner cliffdwellers" style="opacity: 1; transform: scale(1, 1); z-index: 97;">
-          <h2 style="transform: scale(1, 1);">Gallery</h2>
+          <h2 style="transform: scale(1, 1);font-family:'NeuzeitGro-Reg'">Gallery</h2>
         </div></a>
 
         <a href="./offers.html">
         <div class="flix zoomer col-banner fishing-info" style="opacity: 1; transform: scale(1, 1); z-index: 95;">
-          <h2 style="transform: scale(1, 1);">Offers</h2>
+          <h2 style="transform: scale(1, 1);font-family:'NeuzeitGro-Reg'">Offers</h2>
         </div></a>
         <a href="./london.html">
         <div class="flix zoomer col-banner london" style="opacity: 1; transform: scale(1, 1); z-index: 100;">
-          <h2 style="transform: scale(1, 1);">LONDON</h2>
+          <h2 style="transform: scale(1, 1);font-family:'NeuzeitGro-Reg'">LONDON</h2>
         </div></a>
-        <a href="#">
+        <a href="./booking.html">
         <div class="flix zoomer col1 guides" style="opacity: 1; transform: scale(1, 1);">
-          <h2>Book</h2>
+          <h2 style="font-family:'NeuzeitGro-Reg'">Book</h2>
         </div>
         </a>
         <a href="javascript:void(0)">
@@ -246,7 +255,7 @@ img.emoji {
                         <!--<p style="visibility: hidden;">The difference between a good nymph fisherman and a great nymph fisherman is usually about one splitshot.</p>-->
                         </div>
               <section class="tip-heading">
-                <h3>Testimonials</h3>
+                <h3 style="font-family:'NeuzeitGro-Reg'">Testimonials</h3>
                 <hr>
               </section>
               <section class="tip-controls">
@@ -292,7 +301,7 @@ img.emoji {
 
         <div class="flix col2 river-temp" style="opacity: 1; transform: scale(1, 1);">
           <div class="row temp" style="height: 190px;">
-            <h3>Date</h3>
+            <h3 style="font-family:'NeuzeitGro-Reg'">Date</h3>
             <div class="infoText" id="datCol">
 
               <script>
@@ -314,7 +323,7 @@ img.emoji {
             <div class="subText"></div>
           </div>
           <div class="row flow" style="height: 190px;">
-            <h3>Temperature</h3>
+            <h3 style="font-family:'NeuzeitGro-Reg'">Temperature</h3>
             <div class="infoText">47  </div>
             <div class="subText">&#8457;</div>
             <!--<video autoplay="" loop="" preload="">
@@ -327,17 +336,17 @@ img.emoji {
 
         <div class="flix col2 contact" style="opacity: 1; transform: scale(1, 1);">
           <div class="small">
-            <h3>Contact</h3>
+            <h3 style="'font-family:'NeuzeitGro-Reg'">Contact</h3>
             <!--<a href="https://www.google.com/maps/place/Cliff+Dwellers+Lodge/@36.743835,-111.753615,11z/data=!4m2!3m1!1s0x87346fbf26b77509:0xe8cb441f409fb811" target="_blank">-->
-            <p>Euro Hotel, Hammersmith, <br>
+            <p style="'font-family:'NeuzeitGro-Reg'">Euro Hotel, Hammersmith, <br>
                 31 Shepherd Bush Road,
                 London <br />W6 7LX</p>
               <!--</a>-->
             <hr>
             <a href="mailto:info@londoneurohotel.co.uk">
-            <p>info@londoneurohotel.co.uk</p></a>
+            <p style="'font-family:'NeuzeitGro-Reg'">info@londoneurohotel.co.uk</p></a>
             <hr>
-            <p>Ph:<a href="tel:02076034721">02076034721</a></p>
+            <p style="'font-family:'NeuzeitGro-Reg'">Ph:<a href="tel:02076034721">02076034721</a></p>
 
             
           </div>
@@ -403,47 +412,36 @@ img.emoji {
 </div>
 <div class="col2" id="field2">
 <div id="fields"><span class="wpcf7-form-control-wrap email-184"><input type="email" name="email-184" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" placeholder="ENTER YOUR EMAIL ADDRESS"></span><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></div>
-</div> -->
+</div>  style-->
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
     </div>
 </section>
 <footer>
 <section class="nav-footer">
   <div class="nav-area-f">
-    <div class="nav-col-f">
-     <!-- <h3>Lodging</h3>
-      <a href="/cliff-dwellers-lodge"><p>Gallery/p></a>
-      <a href="/nearby-attractions"><p>Offers</p></a>
-      <a href="/restaurant"><p>Book</p></a>-->
+
+    <div class="nav-col-f" style="padding-top:30px; !important">
+      <a href="./aboutus.html"><p style="font-family:'NeuzeitGro-Reg'; font-size:14px;">About us</p></a>
+      <a href="./gallery.html"><p style="font-family:'NeuzeitGro-Reg'; font-size:14px;">Gallery</p></a>
+      <a href="./offers.html"><p style="font-family:'NeuzeitGro-Reg'; font-size:14px;">Offers</p></a>
+      <a href="./booking.html"><p style="font-family:'NeuzeitGro-Reg'; font-size:14px;">Books</p></a>
+      <a href="./london.html"><p style="font-family:'NeuzeitGro-Reg'; font-size:14px;">London</p></a>
     </div>
     <div class="nav-col-f">
-      <!--<h3>Fishing</h3>
-      <a href="/lees-ferry-anglers"><p>Euro Hotels Anglers</p></a>
-      <a href="/fishing-info"><p>Fishing Info</p></a>
-      <a href="/river-report"><p>River Report</p></a>
-      <a href="/what-you-should-know"><p>What You Should Know</p></a>-->
+      <h3 style="">Contact</h3>
+      <p style="font-family:'NeuzeitGro-Reg'; font-size:16px;line-height: 1.6;">Euro Hotel, Hammersmith, 
+                <br />31 Shepherd Bush Road,
+                <br />London <br />W6 7LX</p></a>
+      <a href="tel:02076034721"><p style="font-family:'NeuzeitGro-Reg'; font-size:16px;">+44 (0) 207 603 4721 - <br />+44 (0) 207 603 7596</p></a>
+      <a href="mailto:info@londoneurohotel.co.uk"><p style="font-family:'NeuzeitGro-Reg'; font-size:16px;">info@londoneurohotel.co.uk</p></a>
+      </p>  
     </div>
-    <div class="nav-col-f">
-      <a href="./aboutus.html"><p>About us</p></a>
-      <a href="./gallery.html"><p>Gallery</p></a>
-      <a href="./offers.html"><p>Offers</p></a>
-      <a href="./books.html"><p>Books</p></a>
-      <a href="./london.html"><p>London</p></a>
-    </div>
-    <div class="nav-col-f">
-      <h3>Contact</h3>
-      <!--<a href="https://www.google.com/maps/place/Cliff+Dwellers+Lodge/@36.743835,-111.753615,11z/data=!4m2!3m1!1s0x87346fbf26b77509:0xe8cb441f409fb811" target="_blank">-->
-      <p> Euro Hotel, Hammersmith, 
-                31 Shepherd Bush Road,
-                London <br />W6 7LX</p></a>
-      <a href="tel:02076034721"><p>+ 44 (0) 207 603 4721 - + 44 (0) 207 603 7596</p></a>
-      <a href="mailto:info@londoneurohotel.co.uk"><p>info@londoneurohotel.co.uk</p></a>
-    </div>
+    
   </div>
 </section>
 
 <div class="left">
-  <p>Copyright 2018 London Euro Hotel. All Rights Reserved.</p>
+  <p style="font-family:'NeuzeitGro-Reg'; text-align:center;font-size:12px;font-weight: normal;margin-top:20px;">Copyright 2018 London Euro Hotel. All Rights Reserved.</p>
 </div>
 
 
@@ -466,5 +464,23 @@ img.emoji {
 <script src="./js/plugins.min.js"></script>
 <script src="./js/main.min.js"></script>
 
+<script>  
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
 
 
+</body>
+</html>
